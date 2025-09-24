@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 320px;
+}
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+#addButton {
+    background-color: #007bff;
+}
+#sortButton {
+    background-color: #28a745;
+}
+#friendList {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 15px;
+    text-align: left;
+}
+#friendList li {
+    background-color: #e9ecef;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+#result {
+    font-size: 18px;
+    font-weight: bold;
+    color: #dc3545;
+    margin-top: 20px;
+    min-height: 25px;
+}
